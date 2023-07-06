@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;}
+
+.logoimg{
+    width: 120px;
+}
+
+.imlo{
+    display: flex;
+    background-color: rgb(59, 58, 58);
+    padding: 20px;
+    color: white;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.list{
+    display: flex;
+}
+.item{
+    margin-right: 10px;
+    padding: 7px;
+    font-size: small;
+font-weight: bold;
+cursor: pointer;
+}
+.item:hover{
+    color: black;
+    }
+    .banerlogo{
+        width: 300px;
+    }
+    .baner{
+        display: flex;
+        justify-content: space-around;
+        height: 100vh;
+        align-items: center;
+        border: 2px solid gray;
+     background-image: url(./background.png),linear-gradient(45deg,#292323,#424040);
+        
+    }
+    .banertext{
+        color:aliceblue;
+    }
+    .head{
+        font-weight: bold;
+    }
+    .pera{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-weight: bold;
+    }
+    .btn{
+        background-color: brown;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        color: aliceblue;
+    }
+    .unimg{
+        width: 300px;
+    }
+    .unline{
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        color:white;
+        background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAsJCQcJCQcJCQkJCwkJCQkJCQsJCwsMCwsLDA0QDBEODQ4MEhkSJRodJR0ZHxwpKRYlNzU2GioyPi0pMBk7IRP/2wBDAQcICAsJCxULCxUsHRkdLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCz/wAARCAC0APoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIH/8QAGRABAAMBAQAAAAAAAAAAAAAAAAECAxEx/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AMiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABetYpprSPK3vWO+8iZhAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//Z);
+    }
+    .about{
+        margin-bottom: 100px;
+    }
+    
