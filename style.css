@@ -73,5 +73,68 @@ cursor: pointer;
     }
     .about{
         margin-bottom: 100px;
+        text-decoration: underline;
+        
     }
+    .pera2{
+        margin-bottom: 0px;
+       
+    }
+    .finsh{ 
+        
+        width: 230px;
+        height: 250px;
+        box-shadow: 4px 4px 15px gray;
+        background-color: black;
+        text-align: center;
+        color: aliceblue;
+        border-radius: 30px;
     
+    }
+    .icon{
+        width: 70px;
+    }
+    .pera3{
+        font-size: small;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+   .ses{
+    display: flex;
+   justify-content: space-around;
+   }
+   .our{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+   }
+   .bgm{
+    background-image: url(https://www.elegantthemes.com/blog/wp-content/uploads/2013/09/bg-10-full.jpg);
+    
+   }
+   .contract{
+    display: flex;
+    margin: 10px;
+    margin-right: 930px;
+    font-weight: bold;
+    font-style: inherit;
+
+    justify-content:center
+    
+
+    
+    
+    
+    
+}
+.ox{
+    margin-right: 50px;
+    cursor: pointer;
+}
+.pera2{
+    font-weight: bold;
+}
+.ox:hover{
+    color:brown
+}
